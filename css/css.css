@@ -11,6 +11,17 @@ body{
 
 }
 
+a, img, input{
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    transition: 1s;
+    color: black;
+}
+  
+img:focus, input:focus, a:focus {
+    outline: none !important;
+}
+
 /* background */
 
  #container{
@@ -46,7 +57,7 @@ body{
     background-color: white;
     width: 400px;
     height: 560px;
-    border-radius: 4%;
+    border-radius: 1rem;
     overflow: hidden;
 }
 
@@ -140,7 +151,7 @@ section > p{
     overflow: hidden;
     text-align: center;
     text-decoration: none;
-    transition: 1s linear;
+    transition: 1s;
 } 
 
 #bpay:hover{
