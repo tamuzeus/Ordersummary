@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+html{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* background */
+
+ #container{
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    width: 100vw;
+}
+
+#backgroundimg{
+    background: url(img/pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    width: 100vw;
+}    
+
+
+
+/* content area */
+
+#contentposition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#content{
+    background-color: white;
+    width: 400px;
+    height: 560px;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+#herodance{
+    width: 100%;
+    height: 30%;
+}
+
+/* content text */
+
+main{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    color:hsl(223, 47%, 23%);
+    font-size: 29px;
+}
+
+section > p{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+/* content mini area */
+
+#annual{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#music{
+    width: auto;
+    height: auto;
+    align-self: center;
+}
+
+#textan{
+    justify-content: flex-start;
+    margin-left: -6vmax;
+}
+
+#annualplan{
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    line-height: 0.5px;
+}
+
+#price-year{
+    color: hsl(224, 23%, 55%);
+    
+}
+
+
+#change{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+}
+
+/* content buttons */
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+}
+
+#bpay{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    box-shadow: rgba(128, 128, 128, 0.329) 0px 15px 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s linear;
+} 
+
+#bpay:hover{
+    background-color: hsla(245, 75%, 52%, 0.74);
+    
+}
+
+
+#corder{
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+}
